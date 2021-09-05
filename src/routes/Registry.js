@@ -20,7 +20,7 @@ function Registry() {
         else setError(false)
     }, [textInput]);
 
-    console.log(registryData);
+    // console.log(registryData);
 
     const removeItem = (index) => {
         let newData = [...registryData];
